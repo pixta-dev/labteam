@@ -1,9 +1,5 @@
 # MAGNeto
 
-*Authors: Phung Trong Hieu, Vu Tuan Anh, Nguyen Dinh Tung, Do Thanh Lam, Tran Thanh Trung, Ngo Nam Giang (LabTeam - PixtaVietnam)*
-
----
-
 ## Downloading dataset
 - Official: https://lms.comp.nus.edu.sg/wp-content/uploads/2019/research/nuswide/NUS-WIDE.html
 - Unofficial: http://cs-people.bu.edu/hekun/data/TALR/NUSWIDE.zip
