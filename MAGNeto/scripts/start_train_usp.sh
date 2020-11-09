@@ -1,0 +1,35 @@
+#!/bin/bash
+
+python -m train \
+    --train-csv-path ./data/nus_wide/annotations/train_81_with_label.csv \
+    --val-csv-path ./data/nus_wide/annotations/val_81_with_label.csv \
+    --vocab-path ./data/nus_wide/annotations/vocab_81.csv \
+    --img-dir ./data/nus_wide/images \
+    --save-dir ./snapshots/nus_wide_81_add0p0_drop0p0_with_unsupervised_pretraining_Sep_12_20 \
+    --checkpoint-path ./snapshots/nuswide_top_81_ver_1_unsupervised_pretraining_Sep_10_20/ckpt.pth \
+    --load-weights-only \
+    --exclude-top \
+    --start-from-epoch 0 \
+    --t-heads 4 \
+    --t-blocks 2 \
+    --t-dim-feedforward 512 \
+    --i-heads 4 \
+    --i-blocks 1 \
+    --i-dim-feedforward 512 \
+    --img-backbone resnet18 \
+    --d-model 128 \
+    --max-len 16 \
+    --g-dim-feedforward 512 \
+    --dropout 0.3 \
+    --threshold 0.5 \
+    --tagaug-add-max-ratio 0.0 \
+    --tagaug-drop-max-ratio 0.0 \
+    --train-batch-size 32 \
+    --val-batch-size 32 \
+    --epochs 500 \
+    --gpu-id 3 \
+    --num-workers 8 \
+    --log-graph \
+    --save-best-loss \
+    --lr 1e-2 \
+    --log-weight-hist \
