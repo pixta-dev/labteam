@@ -80,7 +80,7 @@ Please acknowledge the following paper in case of using this code as part of any
 **"MAGNeto: An Efficient Deep Learning Method for the Extractive Tags Summarization Problem."**
 Hieu Trong Phung, Anh Tuan Vu, Tung Dinh Nguyen, Lam Thanh Do, Giang Nam Ngo, Trung Thanh Tran, Ngoc C. Lê.
 
-    @article{Hieu2015,
+    @article{Hieu2020,
         title={MAGNeto: An Efficient Deep Learning Method for the Extractive Tags Summarization Problem},
         author={Hieu Trong Phung and Anh Tuan Vu and Tung Dinh Nguyen and Lam Thanh Do and Giang Nam Ngo and Trung Thanh Tran and Ngoc C. L\^{e}},
         journal={arXiv preprint arXiv:2011.04349},
