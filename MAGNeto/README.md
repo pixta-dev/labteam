@@ -1,8 +1,8 @@
-# MAGNeto
+# [MAGNeto: An Efficient Deep Learning Method for the Extractive Tags Summarization Problem](https://arxiv.org/abs/2011.04349)
 
-## Downloading dataset
+## Downloading NUS-WIDE dataset
 - Official: https://lms.comp.nus.edu.sg/wp-content/uploads/2019/research/nuswide/NUS-WIDE.html
-- Unofficial: http://cs-people.bu.edu/hekun/data/TALR/NUSWIDE.zip
+- Unofficial: http://cs-people.bu.edu/hekun/data/TALR/NUSWIDE.zip (recommended for downloading all images)
 
 ## Data preparation
 
@@ -72,3 +72,21 @@ pip install -r requirements.txt
     ```bash
     bash scripts/start_infer.sh
     ```
+
+## Reference
+
+Please acknowledge the following paper in case of using this code as part of any published research:
+
+**"MAGNeto: An Efficient Deep Learning Method for the Extractive Tags Summarization Problem."**
+Hieu Trong Phung, Anh Tuan Vu, Tung Dinh Nguyen, Lam Thanh Do, Giang Nam Ngo, Trung Thanh Tran, Ngoc C. Lê.
+
+    @article{Hieu2015,
+        title={MAGNeto: An Efficient Deep Learning Method for the Extractive Tags Summarization Problem},
+        author={Hieu Trong Phung and Anh Tuan Vu and Tung Dinh Nguyen and Lam Thanh Do and Giang Nam Ngo and Trung Thanh Tran and Ngoc C. L\^{e}},
+        journal={arXiv preprint arXiv:2011.04349},
+        year={2020}
+    } 
+
+## License
+
+The code is released under the [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
